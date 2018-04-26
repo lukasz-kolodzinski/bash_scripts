@@ -3,7 +3,9 @@ driver = "USER INPUT"
 read -p "Type driver name - for example: i40en-2.0.6: " driver
 drivercheck=`find /vmfs/volumes/datastore1/ -name "$driver*"`
 if [ -n "$drivercheck" ]; then
-	echo "Found: $drivercheck"
+	echo "1.Found: $drivercheck"
+	echo "2.Unloading firewall"
+	esxcli network firewall unload
 else
 	echo "Driver not found"
 fi
