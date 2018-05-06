@@ -9,3 +9,5 @@ echo "CPU info:" >> hardware_basics
 lscpu >> hardware_basics
 echo "Devices connected with PCI bus:" >> hardware_basics
 lspci >> hardware_basics
+echo "Devices connected with USB ports:" >> hardware_basics
+lsusb >> hardware_basics
