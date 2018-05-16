@@ -1,3 +1,5 @@
 #!/bin/bash
 #free disk space
-df -h 
+df -h
+#currently running processes
+ps 
