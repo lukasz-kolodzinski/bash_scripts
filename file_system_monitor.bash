@@ -3,3 +3,5 @@
 df -h
 #currently running processes
 ps 
+#memory and swap space status
+free
