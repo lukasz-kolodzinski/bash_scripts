@@ -4,3 +4,5 @@ id
 grep UID /etc/login.defs
 #list groups 
 getent group
+#currently active user's name
+whoami
