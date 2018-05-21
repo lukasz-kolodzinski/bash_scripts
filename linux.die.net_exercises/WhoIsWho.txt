@@ -1,0 +1,2 @@
+This folder contains scripts written as an exercises 
+for bash course available on webpage linux.die.net
